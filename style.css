@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/e2/3f/a6/e23fa65dcedeb00cc5f9ac4ca015699d.jpg" );
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.container{
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600" );
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-inline: auto;
+    align-items: center;
+    margin-top: 100px;
+    gap: 15px;
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 15px;
+}
+#card{
+    width: 250px;
+    border: 1px solid rgb(167, 211, 211);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(172, 188, 189);
+}
+#input{
+    padding: 10px 80px 10px 10px;
+    border-radius: 7px;
+}
+#wraper{
+    color: white;
+    font-family: sans-serif;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#btn{
+    width: 250px;
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(186, 34, 34);
+    font-size: 24px;
+    color: white;
+    
+}
+#clearBtn{
+    width: 250px;
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(186, 34, 34);
+    font-size: 24px;
+    color: white;
+
+}
